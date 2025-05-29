@@ -1,0 +1,14 @@
+{
+	"name": "tsfix",
+	"type": "module",
+	"exports": {
+		"types": "./dist/index.d.ts"
+	},
+	"scripts": {
+		"dev": "tsc --watch",
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^5.8.3"
+	}
+}

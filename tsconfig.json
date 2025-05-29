@@ -1,0 +1,20 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"skipLibCheck": true,
+		/* env */
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		/* linter */
+		"verbatimModuleSyntax": true,
+		"noImplicitAny": true,
+		/* type checking */
+		"strict": true,
+		/* compiler */
+		"target": "ESNext",
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"outDir": "./dist"
+	}
+}

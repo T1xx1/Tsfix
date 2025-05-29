@@ -1,0 +1,1 @@
+export type Loose<T, W = any> = T | (W & {});
