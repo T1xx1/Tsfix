@@ -1,1 +1,1 @@
-export type Loose<T, W = any> = T | (W & {});
+export type Loose<T> = T | (string & {});
