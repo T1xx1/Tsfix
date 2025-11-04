@@ -1,5 +1,3 @@
-import type { Loose } from './loose';
-
 declare global {
 	interface Array<T> {
 		includes(searchElement: Loose<T>, fromIndex?: number): boolean;
@@ -25,5 +23,3 @@ declare global {
 		has(value: Loose<T>): boolean;
 	}
 }
-
-export {};

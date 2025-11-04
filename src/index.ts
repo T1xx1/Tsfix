@@ -1,6 +1,5 @@
-import './globals';
+import './typescript';
 
-export * from './loose';
-export * from './strict';
+import './loose';
 
-export * from './func';
+import './func';
