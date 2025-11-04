@@ -7,13 +7,13 @@
 Type whatever value in type unions without loosing intellisense and type safety.
 
 ```ts
-export type Loose<T> = T | (string & {});
+type Loose<T> = T | (string & {});
 ```
 
 ## Func
 
-Better function constructore type.
+Better function type constructor.
 
 ```ts
-export type Func<T = any, R = any> = (...args: T[]) => R;
+type Func<T = any, R = any> = (...args: T[]) => R;
 ```
