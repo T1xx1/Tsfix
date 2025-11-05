@@ -1,5 +1,4 @@
-import './typescript';
-
+import './func';
 import './loose';
 
-import './func';
+import './typescript';
