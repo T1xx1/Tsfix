@@ -4,6 +4,7 @@
 		"skipLibCheck": true,
 		/* env */
 		"module": "ESNext",
+		"moduleDetection": "force",
 		"moduleResolution": "bundler",
 		/* linter */
 		"verbatimModuleSyntax": true,
