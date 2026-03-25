@@ -1,7 +1,6 @@
 {
 	"name": "tsfix",
 	"type": "module",
-	"packageManager": "pnpm@10.30.0",
 	"exports": {
 		"types": "./dist/index.d.ts"
 	},
@@ -11,5 +10,6 @@
 	},
 	"devDependencies": {
 		"typescript": "^5.9.3"
-	}
+	},
+	"packageManager": "pnpm@10.30.0"
 }

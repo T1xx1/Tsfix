@@ -3,10 +3,10 @@ declare global {
 
 	type Strict<T> =
 		/* for (type in T union) */
-		T extends any ?
-			/* T === string */
-			string extends T ?
-				never
-			:	T
-		:	never;
+		T extends any
+			? /* T === string */
+				string extends T
+				? never
+				: T
+			: never;
 }
