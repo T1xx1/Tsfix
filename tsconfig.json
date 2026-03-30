@@ -1,21 +1,26 @@
 {
 	"include": ["./src/**/*.ts"],
 	"compilerOptions": {
+		/* parser */
+		"rootDir": "./src",
 		"skipLibCheck": true,
-		/* env */
-		"module": "ESNext",
-		"moduleDetection": "force",
-		"moduleResolution": "bundler",
-		/* linter */
-		"verbatimModuleSyntax": true,
-		"noImplicitAny": true,
+		"module": "NodeNext",
+		"moduleDetection": "force" /* force ESM */,
+		"resolveJsonModule": true /* JSON */,
 		/* type checking */
-		"strict": true,
+		"types": [],
+		"exactOptionalPropertyTypes": true,
+		/* linter */
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"verbatimModuleSyntax": true,
 		/* compiler */
 		"target": "ESNext",
 		"declaration": true,
-		"declarationMap": true,
-		"emitDeclarationOnly": true,
-		"outDir": "./dist"
-	}
+		"outDir": "./dist",
+	},
 }
