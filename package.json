@@ -17,6 +17,10 @@
 		"README.md"
 	],
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/t1xx1/tsfix.git"
+	},
 	"devDependencies": {
 		"typescript": "^6.0.3"
 	},
