@@ -10,6 +10,12 @@
 		"dev": "tsc -w",
 		"build": "tsc"
 	},
+	"files": [
+		"dist",
+		"LICENSE",
+		"package.json",
+		"README.md"
+	],
 	"devDependencies": {
 		"typescript": "^6.0.3"
 	},
