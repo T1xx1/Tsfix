@@ -1,6 +1,17 @@
 {
 	"name": "@t1xx1/tsfix",
 	"version": "1.0.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/t1xx1/tsfix.git"
+	},
+	"files": [
+		"dist",
+		"LICENSE",
+		"package.json",
+		"README.md"
+	],
 	"type": "module",
 	"exports": {
 		"import": "./dist/index.js",
@@ -9,17 +20,6 @@
 	"scripts": {
 		"dev": "tsc -w",
 		"build": "tsc"
-	},
-	"files": [
-		"dist",
-		"LICENSE",
-		"package.json",
-		"README.md"
-	],
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/t1xx1/tsfix.git"
 	},
 	"devDependencies": {
 		"typescript": "^6.0.3"
