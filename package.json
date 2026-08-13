@@ -22,7 +22,7 @@
 	"scripts": {
 		"dev": "tsc -w",
 		"build": "tsc",
-		"prepublishOnly": "node ./scripts/clean.js && pnpm i && pnpm build"
+		"prepublishOnly": "pnpm clean && node ./scripts/clean.js && pnpm i && pnpm build"
 	},
 	"devDependencies": {
 		"typescript": "^6.0.3"
